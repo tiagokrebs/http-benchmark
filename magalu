@@ -1,4 +1,0 @@
-locust --host=https://storage.googleapis.com --locusfile locustfile.py
-locust --host=https://juarez-assets.magazineluiza.com.br --locusfile locustfile.py
-
-http://localhost:8089
