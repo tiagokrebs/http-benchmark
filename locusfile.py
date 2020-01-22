@@ -18,7 +18,7 @@ class UserBehavior(TaskSet):
 
     @task(2)
     def create_get(self):
-        self.client.get(url="/juarez-assets/magazine/menu/x60/default/target.html", name="Create a new get")
+        self.client.get(url="/target.html", name="Create a new dummy get")
 
 
 class WebsiteUser(HttpLocust):

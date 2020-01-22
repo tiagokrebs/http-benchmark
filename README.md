@@ -12,7 +12,7 @@ $ cd http-benchmark
 $ virtualenv -p python3 venv
 $ source venv/bin/activate
 $ pip install -r requirements.txt
-$ ./run.sh
+$ ./run.sh <insert your host here>  # http://edg-bhs-ovh001s:80
 ```
 
 Go to http://localhost:8089
