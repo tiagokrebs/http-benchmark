@@ -26,6 +26,6 @@ Starting web monitor at http://*:8089
 Starting Locust 0.13.5
 ```
 
-Go to http://localhost:8089 for start the requests.
+Go to http://localhost:8089 and start the requests.
 
 If you need a different behaviour make your own `locusfile.py`.
