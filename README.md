@@ -16,8 +16,10 @@ $ locust --host=<insert your host here> -f locusfile.py
 
 # example
 $ locust --host=http://edg-bha-ovh001s:80 -f locusfile.py
-```
 
-Go to http://localhost:8089
+$ Starting web monitor at http://*:8089
+$ Starting Locust 0.13.5
+```
+Then go to http://localhost:8089
 
 If you need a different behaviour make your own `locusfile.py`.
