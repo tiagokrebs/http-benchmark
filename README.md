@@ -12,7 +12,10 @@ $ cd http-benchmark
 $ virtualenv -p python3 venv
 $ source venv/bin/activate
 $ pip install -r requirements.txt
-$ ./run.sh <insert your host here>  # http://edg-bhs-ovh001s:80
+$ locust --host=<insert your host here> -f locusfile.py
+
+# example
+$ locust --host=http://edg-bha-ovh001s:80 -f locusfile.py
 ```
 
 Go to http://localhost:8089
