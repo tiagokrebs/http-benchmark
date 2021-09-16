@@ -10,7 +10,7 @@ Install project
 ```console
 $ git clone https://github.com/tiagorkrebs/http-benchmark.git
 $ cd http-benchmark
-$ virtualenv -p python3 venv
+$ python3 -m venv venv
 $ source venv/bin/activate
 $ pip install -r requirements.txt
 ```
@@ -20,7 +20,7 @@ Run locust
 $ locust --host=<insert your host here> -f locusfile.py
 
 # example
-$ locust --host=http://edg-bha-ovh001s:80 -f locusfile.py
+$ locust --host=http://example.com:80 -f locusfile.py
 
 Starting web monitor at http://*:8089
 Starting Locust 0.13.5
